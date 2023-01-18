@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário B7WEB Projeto</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+
+<body>
+
+    <!-- Cabeçário-->
+
+    <header>
+        <div class="container">
+            <div class="header_body">
+                <div class="title_header">
+                    <h1>Formulario </h1>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Formulário-->
+    <section>
+        <div class="container">
+            <div class="form_body1">
+
+                <div class="form_title">
+                    PREENCHA
+
+                    <form action="b7webtest" method="post">
+                        <label for="form_name" class="form_name">Nome:</label>
+                        <input id="form_name" type="text" placeholder="Escreva seu Nome aqui" autocomplete="off"
+                            maxlength="38" required>
+                        <div class="email_bar"></div>
+                        <br> <br>
+                        <label for="form_mail" class="form_mail">E-mail:</label>
+                        <input id="form_mail" type=email placeholder="Escreva seu Email aqui" autocomplete="off"
+                            maxlength="38" required>
+                        <div class="email_bar"></div>
+                        <br> <br>
+                        <label for=" form_data" class="form_date">Data de Nascimento:
+                        </label>
+                        <input id="form_data" type="date" max="2023-01-18" required>
+
+                        <br> <br>
+                        <div class=form_choices>
+                            <div class="form_txt"> Deseja ser que tipo de Programador? </div>
+                            <label class="form_escolha">ESCOLHA</label> <br> <br>
+                            <input id="form_options" type="radio" name="form_options" required>
+                            <label for="form_options" id="form_options">Frontend</label> <br> <br>
+                            <input id="form_options2" type="radio" name="form_options" required>
+                            <label for="form_options2" id="form_options2">Backend</label> <br> <br>
+                            <input id="form_options3" type="radio" name="form_options" required>
+                            <label for="form_options3" id="form_options3">Fullstack</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Botão de Enviar-->
+    <section>
+        <div class="container">
+            <button>Enviar </button>
+        </div>
+        </div>
+    </section>
+    <!--rodapé-->
+    <footer>
+        <div class="rodape">Criado por Ian Vieira Marques de Castro.
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
